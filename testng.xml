@@ -9,9 +9,9 @@
   <test thread-count="5" name="Test">
   	<parameter name="browser" value="firefox"/>
     <classes>
-       <class name="com.interBanking.testCases.TC_LoginTest_001"/> 
+        <class name="com.interBanking.testCases.TC_LoginTest_001"/>  
       <!-- <class name="com.interBanking.testCases.TC_LoginDDT_002"/>   -->
-      <class name="com.interBanking.testCases.TC_AddCustomerTest_003"/>
+     <!-- <class name="com.interBanking.testCases.TC_AddCustomerDDT"/>   -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

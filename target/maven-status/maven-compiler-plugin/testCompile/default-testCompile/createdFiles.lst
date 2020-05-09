@@ -7,4 +7,5 @@ com\interBanking\testCases\BaseClass.class
 com\interBanking\pageObject\LoginPage.class
 com\interBanking\pageObject\Test1.class
 com\interBanking\utilities\Reporting.class
+com\interBanking\testCases\TC_AddCustomerDDT.class
 com\interBanking\pageObject\AddCustomerPage.class

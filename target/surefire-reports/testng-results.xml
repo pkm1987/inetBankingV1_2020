@@ -1,89 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBanking" duration-ms="101796" started-at="2020-04-12T11:55:00Z" finished-at="2020-04-12T11:56:41Z">
+  <suite name="InetBanking" duration-ms="106622" started-at="2020-05-09T09:16:48Z" finished-at="2020-05-09T09:18:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="101796" started-at="2020-04-12T11:55:00Z" finished-at="2020-04-12T11:56:41Z">
-      <class name="com.interBanking.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.interBanking.testCases.TC_AddCustomerTest_003@511baa65]" name="setup" is-config="true" duration-ms="11325" started-at="2020-04-12T11:55:43Z" finished-at="2020-04-12T11:55:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.interBanking.testCases.TC_AddCustomerTest_003@511baa65]" name="addNewCustomer" duration-ms="40749" started-at="2020-04-12T11:55:54Z" finished-at="2020-04-12T11:56:35Z">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[Dismissed user prompt dialog: please fill all fields: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PRADIPMAHATO-PC', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1536, moz:profile: C:\Users\PradipMahato\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 542c990c-bb5b-4181-b2ba-0332d5bbdde5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: please fill all fields: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PRADIPMAHATO-PC', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1536, moz:profile: C:\Users\PradipMahato\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 542c990c-bb5b-4181-b2ba-0332d5bbdde5
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:438)
-at com.interBanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.interBanking.testCases.TC_AddCustomerTest_003@511baa65]" name="teardown" is-config="true" duration-ms="6506" started-at="2020-04-12T11:56:35Z" finished-at="2020-04-12T11:56:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.interBanking.testCases.TC_AddCustomerTest_003 -->
+    <test name="Test" duration-ms="106622" started-at="2020-05-09T09:16:48Z" finished-at="2020-05-09T09:18:35Z">
       <class name="com.interBanking.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@39ba5a14]" name="setup" is-config="true" duration-ms="12099" started-at="2020-04-12T11:55:00Z" finished-at="2020-04-12T11:55:12Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@36d64342]" name="setup" is-config="true" duration-ms="70197" started-at="2020-05-09T09:16:50Z" finished-at="2020-05-09T09:18:00Z">
           <params>
             <param index="0">
               <value>
@@ -94,11 +18,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@39ba5a14]" name="loginTest" duration-ms="23839" started-at="2020-04-12T11:55:12Z" finished-at="2020-04-12T11:55:36Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@36d64342]" name="loginTest" duration-ms="22337" started-at="2020-05-09T09:18:00Z" finished-at="2020-05-09T09:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@39ba5a14]" name="teardown" is-config="true" duration-ms="6898" started-at="2020-04-12T11:55:36Z" finished-at="2020-04-12T11:55:43Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.interBanking.testCases.TC_LoginTest_001@36d64342]" name="teardown" is-config="true" duration-ms="11968" started-at="2020-05-09T09:18:23Z" finished-at="2020-05-09T09:18:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
